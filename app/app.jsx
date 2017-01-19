@@ -8,6 +8,11 @@ import Examples from "./components/Examples/Examples";
 
 import {Route, Router, IndexRoute, hashHistory} from 'react-router';
 
+// Load Bootstrap
+require('style!css!bootstrap/dist/css/bootstrap.min.css');
+require('style!css!font-awesome/css/font-awesome.css');
+require('applicationStyles');
+
 render(
 
     <Router history={hashHistory}>

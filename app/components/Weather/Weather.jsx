@@ -51,7 +51,7 @@ class Weather extends React.Component {
 
         return (
             <div>
-                <h1>Get Weather</h1>
+                <h1><i className="fa fa-cog fa-spin fa-fw"></i>Get Weather</h1>
                 <WeatherForm onSearch={this.handleSearch.bind(this)} />
                 {renderMessage()}
             </div>
