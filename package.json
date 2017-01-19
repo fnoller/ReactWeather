@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon --watch server --exec babel-node -- server/index.js",
-    "start": "npm run server",
+    "start": "node server",
     "webpack": "webpack -w"
   },
   "author": "",
